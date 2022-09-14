@@ -1,6 +1,7 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
-function Navigation(props) {
-  return <div>This is navigation </div>;
+function Navigation() {
+  return <Container>This is the Navigation component</Container>;
 }
 export default Navigation;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Navigation from "./components/Navigation";
 import Description from "./components/Description";
 import Journey from "./components/Journey";
@@ -14,35 +14,31 @@ function App() {
   return (
     <>
       <Container className="app-container">
-        <Row ClassName="navigation">
+        <Row className="navigation">
           <Navigation />
         </Row>
-        <Row ClassName="navigation">
-          <Navigation />
-        </Row>
-        <Row ClassName="description">
+        <Row className="description">
           <Description />
         </Row>
-        <Row ClassName="journey">
+        <Row className="journey">
           <Journey />
         </Row>
-        <Row ClassName="code-profile">
+        <Row className="code-profile">
           <CodeProfile />
         </Row>
-        <Row ClassName="skills">
+        <Row className="skills">
           <Skills />
         </Row>
         <Row ClassName="projects">
           <Projects />
         </Row>
-        <Row ClassName="connect">
+        <Row className="connect">
           <Connect />
         </Row>
-        <Row ClassName="Footer">
+        <Row className="Footer">
           <Footer />
         </Row>
       </Container>
-      {/* <Navigation /> */}
     </>
   );
 }
