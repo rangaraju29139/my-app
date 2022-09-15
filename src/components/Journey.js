@@ -8,6 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import Btech from "./journey-timeline/Btech";
 import Intermediate from "./journey-timeline/Intermediate";
 import Scaler from "./journey-timeline/Scaler";
+import Ssc from "./journey-timeline/Ssc";
 import Tcs from "./journey-timeline/Tcs";
 
 function Journey() {
@@ -25,20 +26,7 @@ function Journey() {
             <Tcs />
             <Btech />
             <Intermediate />
-            <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="April 2013"
-              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-              icon={""}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Content Marketing for Web, Mobile and Social Media
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Online Course
-              </h4>
-              <p>Strategy, Social Media</p>
-            </VerticalTimelineElement>
+            <Ssc />
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="November 2012"
