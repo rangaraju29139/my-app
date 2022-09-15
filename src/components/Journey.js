@@ -10,6 +10,7 @@ import Intermediate from "./journey-timeline/Intermediate";
 import Scaler from "./journey-timeline/Scaler";
 import Ssc from "./journey-timeline/Ssc";
 import Tcs from "./journey-timeline/Tcs";
+import Birth from "./journey-timeline/Birth";
 
 function Journey() {
   return (
@@ -27,20 +28,7 @@ function Journey() {
             <Btech />
             <Intermediate />
             <Ssc />
-            <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="November 2012"
-              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-              icon={""}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Agile Development Scrum Master
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Certification
-              </h4>
-              <p>Creative Direction, User Experience, Visual Design</p>
-            </VerticalTimelineElement>
+            <Birth />
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="2002 - 2006"
