@@ -27,12 +27,13 @@ function App() {
         <Row className="bg-primary journey main-components" id="journey">
           <Journey />
         </Row>
-        <Row className="code-profile main-components" id="code-profile">
-          <CodeProfile />
-        </Row>
         <Row className="skills main-components" id="skills">
           <Skills />
         </Row>
+        <Row className="code-profile main-components" id="code-profile">
+          <CodeProfile />
+        </Row>
+
         <Row ClassName="projects main-components" id="projects">
           <Projects />
         </Row>
