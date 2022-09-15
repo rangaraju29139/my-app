@@ -13,29 +13,33 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Container className="app-container">
-        <Row className="navigation">
+      <Container fluid className="app-container">
+        <Row className="Navigation main-components" id="navigation">
           <Navigation />
         </Row>
-        <Row className="description">
+        <Row
+          className="bg-success Description main-components"
+          id="description"
+        >
           <Description />
         </Row>
-        <Row className="journey">
+
+        <Row className="bg-primary journey main-components" id="journey">
           <Journey />
         </Row>
-        <Row className="code-profile">
+        <Row className="code-profile main-components" id="code-profile">
           <CodeProfile />
         </Row>
-        <Row className="skills">
+        <Row className="skills main-components" id="skills">
           <Skills />
         </Row>
-        <Row ClassName="projects">
+        <Row ClassName="projects main-components" id="projects">
           <Projects />
         </Row>
-        <Row className="connect">
+        <Row className="bg-primary connect main-components" id="connect">
           <Connect />
         </Row>
-        <Row className="Footer">
+        <Row className="Footer main-components" id="">
           <Footer />
         </Row>
       </Container>
