@@ -1,7 +1,11 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Navbar } from "react-bootstrap";
 
 function Footer() {
-  return <Container>This is the Footer component</Container>;
+  return (
+    <Navbar expand="lg" fixed="bottom" variant="dark" bg="dark">
+      <Container></Container>
+    </Navbar>
+  );
 }
 export default Footer;
