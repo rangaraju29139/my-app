@@ -1,6 +1,12 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import image from "../assets/images/description-banner.png";
+
+import { Image } from "react-bootstrap";
 function Description() {
-  return <Container>This is the sample Description</Container>;
+  return (
+    <>
+      <Image src={image} className="img-fluid banner p-0" alt="..." />
+    </>
+  );
 }
 export default Description;
