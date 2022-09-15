@@ -6,6 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Btech from "./journey-timeline/Btech";
+import Intermediate from "./journey-timeline/Intermediate";
 import Scaler from "./journey-timeline/Scaler";
 import Tcs from "./journey-timeline/Tcs";
 
@@ -23,18 +24,7 @@ function Journey() {
             <Scaler />
             <Tcs />
             <Btech />
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              date="2006 - 2008"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              icon={""}
-            >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                San Francisco, CA
-              </h4>
-              <p>User Experience, Visual Design</p>
-            </VerticalTimelineElement>
+            <Intermediate />
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               date="April 2013"
